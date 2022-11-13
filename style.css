@@ -1,0 +1,130 @@
+body
+{
+  /* Background pattern from toptal.com/ */
+	background-image: url("img/oriental-tiles.png");
+	image-border:  2px solid #B8860B;
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+#logo
+	{/*Background image from Obraz <a href="https://pixabay.com/pl/users/moritz320-1260270/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3346988"> günter</a> z <a href="https://pixabay.com/pl//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3346988"> Pixabay</a>*/
+	background-image: url("img/golden.jpg");
+	width: 1000px;	
+	height: 290px;
+	font-size: 13px;
+	text-align: center; 
+	border-bottom: 2px solid #B8860B;
+
+}
+
+#footer
+{
+	width: 960px;	
+	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 32px;
+}
+
+#container
+{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	width: 1000px;
+	padding: 0px;
+	height: 1100px;
+    font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #B8860B;
+	text-align: center;
+}
+
+
+
+h1
+{
+	font-size: 30px;
+	font-weight: 400;
+	color: #191970;
+	margin-bottom: 20px;
+	text-align: center;
+	margin-left:20px;
+	margin-right:20px;
+	margin-bottom: 20px;
+}
+
+h2
+{
+	font-size: 18px;
+}
+
+input
+{
+	border: solid #191970 2px; 
+	background-color: #B0C4DE; 
+	padding: 4px;
+}
+
+submit:hover
+{
+	opacity: 0.5;
+}
+
+.menu
+{
+	float: left;
+	margin-top: 20 px;
+	margin-left: 70px;
+}
+
+.menu a
+{
+	opacity: 0.9;
+}
+
+.menu a:hover
+{
+	opacity: 1;
+}
+
+
+.info
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 20px;
+}
+
+.reg
+{
+	opacity: 0.8;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+.reg:hover
+{
+	opacity: 1;
+}
+
+.linkreg
+{
+	color: #191970 ;
+	font-size: 16px; 
+	opacity: 0.8;
+}
+
+.linkreg:hover
+{
+	opacity: 1;
+}
+
+#footer
+{
+	background-color: white;
+	width: 1000px;
+	height: 50px;
+}
