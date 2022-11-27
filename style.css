@@ -176,6 +176,7 @@ submit:hover
   color: #191970;
   min-width: 160px;
   border: solid #191970 2px; 
+  font-weight: 700;
 }
 
 .dropdown-content {
@@ -183,6 +184,7 @@ submit:hover
   background-color: #FFFACD;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  font-weight: 700;
 }
 
 .dropdown-content a {
