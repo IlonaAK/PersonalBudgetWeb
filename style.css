@@ -14,8 +14,6 @@ body
 	height: 290px;
 	font-size: 13px;
 	text-align: center; 
-	border-bottom: 2px solid #B8860B;
-
 }
 
 #footer
@@ -34,7 +32,7 @@ body
 	background-color: white;
 	width: 1000px;
 	padding: 0px;
-	height: 1100px;
+	height: 1270px;
     font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
 	color: #B8860B;
@@ -101,6 +99,12 @@ submit:hover
 	opacity: 0.8;
 	margin-top: 30px;
 	margin-bottom: 15px;
+	background-color: #FFFACD; 
+	border: solid #B8860B 2px; 
+	border-radius: 5px; 
+	color: #B8860B; 
+	height: 30px; 
+	cursor: pointer;
 }
 .reg:hover
 {
@@ -131,11 +135,79 @@ submit:hover
 	resize: none;
 }
 
-.incomes
+#categories
 {
 	text-align: left;
 	margin-left: 300px;
 	margin-top: 40px;
 	margin-bottom: 40px;
 	font-weight: 550; 
+}
+
+.part
+{
+	float: left;
+}
+
+#myCheck
+{
+	opacity: 0.8;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	background-color:  #ffcccc; 
+	border: solid #ff6666 2px; 
+	border-radius: 5px; 
+	color: #ff6666; 
+	height: 30px; 
+	cursor: pointer;
+}
+
+#myCheck:hover
+{
+	opacity: 1;
+}
+
+.dropbtn
+{
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  background-color: #ebf0fa;
+  color: #191970;
+  min-width: 160px;
+  border: solid #191970 2px; 
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #FFFACD;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #B8860B;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover 
+{
+	background-color: #191970;
+}
+
+.dropdown:hover .dropdown-content 
+{
+	display: block;
+	}
+
+.dropdown:hover .dropbtn 
+{
+	background-color: 	 #fffae6;
+}
+
+h2
+{
+	font-size: 30px;
 }

@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<title>Dodaj przychód - Budżet domowy</title>
+	
+	<meta name="description" content="aplikacja do prowadzenia budżetu osobistego, ewidencji przychodów i wydatków">
+	<meta name="keywords" content="budżet domowy, przychód, wydatki, dochód, personal budget">
+	
+	<link rel="stylesheet" href="style.css" type="text/css">
+			<link rel="stylesheet" href="css/fontello.css">
+	
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<script src="pb.js"></script>
+	
+</head>
+
+<body onload="currentDate();">
+
+
+	<div id="container">
+
+		<div id="logo"> 
+	 
+		</div>
+
+		<header>
+	
+		<h1> <i>„Zrobić budżet to wskazać swoim pieniądzom, dokąd mają iść, zamiast się zastanawiać, gdzie się rozeszły”</i><br> – <b>John C. Maxwell.</b>
+		</h1>
+
+		</header>
+	
+	<main>
+	<script src="pb.js"></script>
+		<fieldset>
+			<div id= "categories"> 
+	          
+				<label>Kwota: <br><input type="number" name="kwota"></label> <br>
+				<label>Data: <br> <input type="text" id="daten" name="text"></label><br><br>
+				<legend> Sposób płatności:</legend>
+				<div><label style="color: #191970"><input type="radio" value="1" name="payment method">Gotówka</label></div>
+				<div><label style="color: #191970"><input type="radio" value="2" name="payment method" checked>Karta kredytowa</label></div>
+				<div><label style="color: #191970"><input type="radio" value="3" name="payment method">Karta debetowa</label></div><br>
+				
+				<legend>Kategoria:</legend> 
+			
+                <div class="part" >
+					<div><label style="color: #191970"><input type="radio" value="1" name="expense" checked>Jedzenie</label></div>
+					<div><label style="color: #191970"><input type="radio" value="2" name="expense">Mieszkanie</label></div>
+					<div><label style="color: #191970"><input type="radio" value="3" name="expense">Transport</label></div>
+					<div><label style="color: #191970"><input type="radio" value="4" name="expense">Telekomunikacja</label></div>
+					<div><label style="color: #191970"><input type="radio" value="5" name="expense">Opieka zdrowotna</label></div>
+					<div><label style="color: #191970"><input type="radio" value="6" name="expense">Ubranie</label></div>
+				</div>
+				<div class="part" >
+					<div><label style="color: #191970"><input type="radio" value="7" name="expense">Higiena</label></div>
+					<div><label style="color: #191970"><input type="radio" value="8" name="expense">Dzieci</label></div>
+					<div><label style="color: #191970"><input type="radio" value="9" name="expense">Rozrywka</label></div>
+					<div><label style="color: #191970"><input type="radio" value="10" name="expense">Wycieczka</label></div>
+					<div><label style="color: #191970"><input type="radio" value="11" name="expense">Szkolenia</label></div>
+					<div><label style="color: #191970"><input type="radio" value="12" name="expense">Książki</label></div>
+				</div>
+				<div class="part" >
+					<div><label style="color: #191970"><input type="radio" value="13" name="expense">Oszczędności</label></div>
+					<div><label style="color: #191970"><input type="radio" value="14" name="expense">Emerytura</label></div>
+					<div><label style="color: #191970"><input type="radio" value="15" name="expense">Spłata długów</label></div>
+					<div><label style="color: #191970"><input type="radio" value="16" name="expense">Darowizna</label></div>
+					<br>
+					<div><label style="color: #191970"><input type="radio" value="17" name="expense">Inne wydatki</label></div>
+				</div>
+				<div style="clear:both"></div>
+				<label><br> Komentarz:<br></label>
+				<textarea name="komenatarz" id="komentarz" rows="1" cols="60" maxlength="25" style="margin-top:15px"></textarea>
+			
+				<div style="clear:both;"></div>
+			
+				<input type="submit" value="Dodaj" class="reg">
+				
+				<input type="reset" value="Anuluj" id="myCheck">
+			
+			</div>	 
+		
+		</fieldset>  
+  		
+		<div id="new"></div>
+		 
+	 </main>	
+
+	<footer></footer>
+		
+	</div>
+	
+</body>
+</html>

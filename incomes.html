@@ -34,28 +34,27 @@
 		</header>
 	
 	<main>
-	<script src="pb.js"></script>
+	
 		<fieldset>
-			<div class= "incomes"> 
+			<div id= "categories"> 
 	          
 				<label>Kwota: <br><input type="number" name="kwota"></label> <br>
-				<label>Data: <br> <input type="text" id="date" name="text" placeholder=""></label>
-				<div style="clear:both;"></div>
-				<p>Wybierz kategorię przychodu:</p> 
-				<div style="clear:both;"></div>
-			
+				<label>Data: <br> <input type="text" id="daten" name="text" placeholder="2022-11-26"></label> <br><br>
+				<legend>Kategoria:</legend> 
 				<div><label style="color: #191970"><input type="radio" value="1" name="przychod" checked>Wynagrodzenie</label></div>
 				<div><label style="color: #191970"><input type="radio" value="2" name="przychod">Odsetki bankowe</label></div>
 				<div><label style="color: #191970"><input type="radio" value="3" name="przychod">Sprzedaż na allegro</label></div>
 				<div><label style="color: #191970"><input type="radio" value="4" name="przychod">Inne</label></div>
 			
 				
-				<label> Komentarz<br></label>
+				<label> <br>Komentarz:<br></label>
 				<textarea name="komenatarz" id="komentarz" rows="1" cols="60" maxlength="25" style="margin-top:15px"></textarea>
 			
 				<div style="clear:both;"></div>
 			
-				<input type="submit" a href="" value="Dodaj" style="background-color: #FFFACD; border: solid #B8860B 2px; border-radius: 5px; color: #B8860B; height: 30px; cursor: pointer; margin-top: 20px;">
+				<input type="submit" value="Dodaj" class="reg">
+				
+				<input type="reset" value="Anuluj" id= "myCheck">
 			
 			</div>	 
 		
@@ -64,12 +63,10 @@
 		<div id="new"></div>
 		 
 	 </main>	
-
-	<div id="footer"> 	
+</div>
+	<footer></footer>	
 		
-		</div>
-		
-	</div>
+	
 	
 </body>
 </html>
