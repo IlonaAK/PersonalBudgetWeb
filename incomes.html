@@ -10,14 +10,14 @@
 	<meta name="keywords" content="budżet domowy, przychód, wydatki, dochód, personal budget">
 	
 	<link rel="stylesheet" href="style.css" type="text/css">
-			<link rel="stylesheet" href="css/fontello.css">
+	<link rel="stylesheet" href="css/fontello.css">
 	
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<script src="pb.js"></script>
 	
 </head>
 
-<body>
+<body onload="currentDate();">
 
 
 	<div id="container">
@@ -38,13 +38,13 @@
 		<fieldset>
 			<div id= "categories"> 
 	          
-				<label>Kwota: <br><input type="number" name="kwota"></label> <br>
-				<label>Data: <br> <input type="text" id="daten" name="text" placeholder="2022-11-26"></label> <br><br>
-				<legend>Kategoria:</legend> 
-				<div><label style="color: #191970"><input type="radio" value="1" name="przychod" checked>Wynagrodzenie</label></div>
-				<div><label style="color: #191970"><input type="radio" value="2" name="przychod">Odsetki bankowe</label></div>
-				<div><label style="color: #191970"><input type="radio" value="3" name="przychod">Sprzedaż na allegro</label></div>
-				<div><label style="color: #191970"><input type="radio" value="4" name="przychod">Inne</label></div>
+				<label>Kwota: <br><input type="number"></label> <br>
+				<label>Data: <br> <input type="text" id="cal" value=""></label> <br><br>
+				<p>Kategoria:</p> 
+				<div><label style="color: #191970"><input type="radio" value="1" name="income" checked>Wynagrodzenie</label></div>
+				<div><label style="color: #191970"><input type="radio" value="2" name="income">Odsetki bankowe</label></div>
+				<div><label style="color: #191970"><input type="radio" value="3" name="income">Sprzedaż na allegro</label></div>
+				<div><label style="color: #191970"><input type="radio" value="4" name="income">Inne</label></div>
 			
 				
 				<label> <br>Komentarz:<br></label>
@@ -55,17 +55,18 @@
 				<input type="submit" value="Dodaj" class="reg">
 				
 				<input type="reset" value="Anuluj" id= "myCheck">
+		
+		<div id="zegar"></div>
 			
 			</div>	 
 		
 		</fieldset>  
-  		
-		<div id="new"></div>
+
 		 
 	 </main>	
-</div>
+
 	<footer></footer>	
-		
+	</div>	
 	
 	
 </body>

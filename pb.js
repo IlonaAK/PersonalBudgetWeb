@@ -8,10 +8,10 @@ function currentDate()
 		var month = today.getMonth()+1;
 		if (month<10) month= "0"+month;
 		
-		var year = today.getYear();
-		var t=year + "-" + month + "-" + day;
-
-         const divDate = document.getElementById('daten').innerHTML;
-		divDate.setAttribute(placeholder,t);
-}
+		var year = today.getFullYear();
+		
+		const calendar=document.getElementById ("cal").innerHTML;
+		calendar.getAttribute("value").innerHTML=year + "-" + month + "-" + day;
+		
+	}
    
