@@ -1,19 +1,45 @@
 body
 {
-  /* Background pattern from toptal.com/ */
-	background-image: url("img/oriental-tiles.png");
-	margin: 0px;
-	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	background-color: #0F405B;
+	text-align: center;
+}
+
+#container
+{
+	background-color: white;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: "Merriwheather";
+	width: 1163px;
+	position: absolute;
 }
 
 
-#logo
-	{/*Background image from Obraz <a href="https://pixabay.com/pl/users/moritz320-1260270/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3346988"> günter</a> z <a href="https://pixabay.com/pl//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3346988"> Pixabay</a>*/
-	background-image: url("img/golden.jpg");
-	width: 1000px;	
-	height: 290px;
-	font-size: 13px;
-	text-align: center; 
+.logo-image
+{
+	width: 1163px;
+	margin: 0;
+}
+
+
+.logo-title1{
+	color: #0F405B;
+	font-size: 2.5rem;
+	position: relative;
+	bottom: 550px;
+	left: 20%;
+}
+
+.logo-title2{
+	color: #e3b744; 
+	line-height: 1.5;
+	width: 600px;
+	position: relative;
+	left: 45%;
+	bottom: 450px;
 }
 
 #footer
@@ -25,32 +51,6 @@ body
 	height: 32px;
 }
 
-#container
-{
-	margin-left: auto;
-	margin-right: auto;
-	background-color: white;
-	width: 1000px;
-	padding: 0px;
-	height: 1270px;
-    font-family: 'Open Sans', sans-serif;
-	font-size: 15px;
-	color: #B8860B;
-	text-align: center;
-}
-
-
-
-h1
-{
-	font-size: 30px;
-	font-weight: 400;
-	color: #191970;
-	margin-bottom: 20px;
-	text-align: center;
-	margin-left:20px;
-	margin-right:20px;
-}
 
 h2
 {
